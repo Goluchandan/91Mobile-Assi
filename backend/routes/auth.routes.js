@@ -1,5 +1,5 @@
 const {Router} = require("express")
-const UserModel = require("../model/userSchema")
+const UserModel = require("../models/User")
 require("dotenv").config();
 const authRouter = Router();
 
