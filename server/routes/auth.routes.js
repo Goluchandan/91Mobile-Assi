@@ -1,6 +1,6 @@
 const {Router} = require("express")
 const UserModel = require("../models/User")
-require("dotenv").config();
+
 const authRouter = Router();
 
 authRouter.post("/signup", async(req, res) => {
@@ -26,10 +26,7 @@ authRouter.post("/login", async (req, res) => {
         }
         res.send(payload)
     }
-    else{
-        res.send({message : "Wrong credentials"})
-    }
-    //     
+    
 })
 
 module.exports = authRouter;
