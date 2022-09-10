@@ -1,0 +1,49 @@
+.SignUp_div{
+    border: 5px solid ghostwhite;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color:gainsboro;
+}
+
+.SignUp_div>div>input{
+    width: 380px;
+    padding: 10px 0px 10px 15px;
+    font-size: 16px;
+    margin-bottom: 13px;
+    margin-top: 3px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color:ghostwhite;
+    
+}
+.SignUp_div>div>label{
+    font-size: 18px;
+}
+.SignUp_div>div>label>b{
+    color:coral
+}
+.SignUp_div>div>button{
+    background-color: #008000;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 40px;
+    padding: 0 25px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.SignUp_div>div>button:hover{
+    background-color: #2dca67;
+    color: crimson;
+    font-weight: bold;
+}
