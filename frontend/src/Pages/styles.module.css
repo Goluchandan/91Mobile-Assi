@@ -1,0 +1,40 @@
+.file_div{
+    width: 600px;
+    border: 5px solid ghostwhite;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    background-color:gainsboro;
+    
+}
+.file_div >input{
+    width: 375px;
+    padding: 10px 10px 10px 15px;
+    font-size: 16px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color:ghostwhite;
+    margin-left: 25px;
+}
+.file_div>button {
+    background-color: coral;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(25, 25, 25, 0.04) 0 0 1px 0, rgba(0, 0, 0, 0.1) 0 3px 4px 0;
+    color: whitesmoke;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    height: 40px;
+    padding: 0 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.file_div>button:focus{
+    background-color:green;
+}
